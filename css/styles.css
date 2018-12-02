@@ -1,18 +1,19 @@
+
 #title {
-	background-color:lavender;
+	background-color: #9fbedf;
 
 }
 
 #pageContent {
-	background-color:lavender;
+	
 }
 
 #navBar {
-	background-color:lavender;
+	
 }
 
 #footer {
-	background-color:lavender;
+	
 }
 
 #logo {
@@ -20,5 +21,13 @@
 }
 
 #intro-text {
-	
+	text-align:center;
+}
+
+.carousel-caption {
+	text-shadow: 0px 2px black;
+}
+
+body {
+	background-color: #00284d;
 }
