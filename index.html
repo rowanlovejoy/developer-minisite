@@ -10,11 +10,11 @@
 		
 		<title>Rowan Lovejoy Developer Minisite</title>
 	</head>
-	<body>
+	<body class="bg-dark">
 		<!-- Page Container -->
 		<div class="container">
 			<!-- Navbar -->
-			<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<nav class="navbar navbar-expand-lg navbar-light bg-light mt-2 mb-2 rounded">
 				<!-- Logo -->
 				<a class="navbar-brand" href="index.html">
 					<img src="images/WebBanner.jpg" alt="logo" id="logo">
@@ -42,12 +42,57 @@
 				</div>
 			</nav>
 			<!-- Page Content -->
-			<div class="col" id="pageContent">
-				Lorem ipsum
+			<div class="col p-2 mt-2 mb-2 rounded" id="pageContent">
+				<!-- Site Intro -->
+				<div class="jumbotron p-2">
+					<h3>Welcome to my site</h3>
+				</div>
+			
+				<!-- Screenshot Gallery -->
+				<div id="gallery" class="carousel slide" data-ride="carousel">
+					<!-- Indicators -->
+					<ul class="carousel-indicators">
+						<li data-target="#gallery" data-slide-to="0" class="active"></li>
+						<li data-target="#gallery" data-slide-to="1"></li>
+						<li data-target="#gallery" data-slide-to="2"></li>
+					</ul>
+				
+					<!-- Slideshow -->
+					<div class="carousel-inner rounded">
+						<div class="carousel-item active">
+							<img src="images/screenshots/Reflektor.png" alt="Reflector" class="img-fluid">
+							<div class="carousel-caption">
+								<h3>Reflektor</h3>
+								<p>Bouncing puzzle game made with Unity<p>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="images/screenshots/IlluminatedRoom.png" alt="Reflector" class="img-fluid">
+							<div class="carousel-caption">
+								<h3>Illuminated Room</h3>
+								<p>Interactive 3D environment made with Unity and 3DS Max<p>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="images/screenshots/WorkingLate.png" alt="Reflector" class="img-fluid">
+							<div class="carousel-caption">
+								<h3>Working Late</h3>
+								<p>Interactive 3D environment made with Unity and 3DS Max<p>
+							</div>
+						</div>
+					</div>
+					<!-- Controls -->
+					<a class="carousel-control-prev" href="#gallery" data-slide="prev">
+						<span class="carousel-control-prev-icon"></span>
+					</a>
+					<a class="carousel-control-next" href="#gallery" data-slide="next">
+						<span class="carousel-control-next-icon"></span>
+					</a>
+				</div>
 			</div>
 			<!-- Footer -->
-			<div class="col" id="footer">
-				Copyright
+			<div class="col p-2 mb-2 rounded" id="footer">
+				Copyright @ Rowan Lovejoy 2018
 			</div>
 		</div>
 		
