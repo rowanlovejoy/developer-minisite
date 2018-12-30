@@ -1,3 +1,6 @@
+body {
+	background-color: #00284d;
+}
 
 #title {
 	background-color: #9fbedf;
@@ -24,15 +27,11 @@
 	text-align:center;
 }
 
-.carousel-caption {
-	text-shadow: 0px 2px black;
-}
-
-body {
-	background-color: #00284d;
-}
-
 .social-icon {
 	width: 128px;
 	height: 128px;
+}
+
+.carousel-caption {
+	text-shadow: 0px 2px black;
 }
