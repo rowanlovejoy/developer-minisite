@@ -27,6 +27,11 @@ body {
 	text-align:center;
 }
 
+#description {
+	height:345px;
+	overflow-y:auto;
+}
+
 .social-icon {
 	width: 128px;
 	height: 128px;
